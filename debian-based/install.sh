@@ -9,16 +9,16 @@ USERNAME =$(whoami)
 sudo apt update
 sudo apt upgrade
 
-#clone configs
-
-git clone https://github.com/jttaka/neovim-config.git
-git clone https://github.com/jttaka/i3-config.git
-
 #install needed packages
 
 sudo apt install git zsh i3 i3status i3lock dmenu extrepo thunar feh alacritty firefox blueman dunst udiskie
 sudo extrepo enable librewolf
 sudo apt install librewolf
+
+#clone configs
+
+git clone https://github.com/jttaka/neovim-config.git
+git clone https://github.com/jttaka/i3-config.git
 
 #curl stuff
 
