@@ -31,7 +31,7 @@ touch $HOME/.profile
 
 #setup .zshrc stuff and bob stuff
 
-echo ". \"home/$USERNAME/.local/share/bob/env/env.sh\"" >> $HOME/.profile
+echo ". \"$HOME/.local/share/bob/env/env.sh\"" >> $HOME/.profile
 
 echo 'export PATH="$PATH:$HOME/bin"' >> "$HOME/.zshrc"
 echo 'export PATH="$PATH:$HOME/.local/bin"' >> "$HOME/.zshrc"
