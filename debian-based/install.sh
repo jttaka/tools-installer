@@ -2,7 +2,7 @@
 
 #Check username
 
-USERNAME =$(whoami)
+USERNAME=$(whoami)
 
 #update the system
 
