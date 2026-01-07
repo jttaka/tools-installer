@@ -15,7 +15,7 @@ sudo apt install git
 ```
 sudo pacman -S git
 ```
-Other than git or something else to download this with you do not need anything else.
+Other than git or something else to download tools-installer with you do not need anything else.
 
 ## Usage:
 
