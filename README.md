@@ -1,6 +1,50 @@
 # jttaka/tools-installer
 
-## WARNING! Project still under construction and might not work. Run at your own risk!
+## WARNING! Project still under construction but should already work. Still run at your own risk!
+
+## Configurations
+
+### Debian:
+On debian install.sh will do the following:
+
+Install:
+```
+git, zsh, i3, i3status, i3lock, dmenu, extrepo, thunar, feh, alacritty, blueman, dunst, udiskie, unzip, curl, wget, neovim, oh-my-zsh, 
+
+```
+Configure:
+```
+i3, neovim
+```
+Go check out the i3 and neovim configs from:
+https://github.com/jttaka/neovim-config
+and
+https://github.com/jttaka/i3-config
+
+It will create directories bin and git in your home directory and add bin to your path
+
+### AND VERY INPORTANT: DELETE ALL GNOME AND KDE RELATED PROGRAMS IF YOU HAVE ANY!!!
+
+### Arch:
+On arch install.sh will do the following:
+
+Install:
+```
+git, zsh, i3, i3status, i3lock, dmenu, extrepo, thunar, feh, alacritty, blueman, dunst, udiskie, unzip, curl, wget, bob, oh-my-zsh, firefox, yay 
+
+```
+Configure:
+```
+i3, bob, neovim
+```
+Go check out the i3 and neovim configs from:
+https://github.com/jttaka/neovim-config
+and
+https://github.com/jttaka/i3-config
+
+It will create directories bin and git in your home directory and add bin to your path
+
+### AND VERY INPORTANT: DELETE ALL GNOME AND KDE RELATED PROGRAMS IF YOU HAVE ANY!!!
 
 ## Installation:
 
