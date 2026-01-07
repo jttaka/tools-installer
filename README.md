@@ -2,6 +2,12 @@
 
 ## WARNING! Project still under construction but should already work. Still run at your own risk!
 
+### Before installing
+Go check out the i3 and neovim configs that install.sh will instal from:
+https://github.com/jttaka/neovim-config
+and
+https://github.com/jttaka/i3-config
+
 ## Configurations
 
 ### Debian:
@@ -14,14 +20,10 @@ git, zsh, i3, i3status, i3lock, dmenu, extrepo, thunar, feh, alacritty, blueman,
 ```
 Configure:
 ```
-i3, neovim
+i3, neovim, zsh
 ```
-Go check out the i3 and neovim configs from:
-https://github.com/jttaka/neovim-config
-and
-https://github.com/jttaka/i3-config
 
-It will create directories bin and git in your home directory and add bin to your path
+Install.sh will also create directories bin and git in your home directory and add bin to your path
 
 ### AND VERY INPORTANT: DELETE ALL GNOME AND KDE RELATED PROGRAMS IF YOU HAVE ANY!!!
 
@@ -35,14 +37,10 @@ git, zsh, i3, i3status, i3lock, dmenu, extrepo, thunar, feh, alacritty, blueman,
 ```
 Configure:
 ```
-i3, bob, neovim
+i3, bob, neovim, zsh
 ```
-Go check out the i3 and neovim configs from:
-https://github.com/jttaka/neovim-config
-and
-https://github.com/jttaka/i3-config
 
-It will create directories bin and git in your home directory and add bin to your path
+Install.sh will also create directories bin and git in your home directory and add bin to your path
 
 ### AND VERY INPORTANT: DELETE ALL GNOME AND KDE RELATED PROGRAMS IF YOU HAVE ANY!!!
 
