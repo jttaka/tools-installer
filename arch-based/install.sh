@@ -14,7 +14,7 @@ makepkg -si
 
 #install needed packages
 
-sudo pacman -S git zsh i3 i3status i3lock dmenu extrepo thunar feh alacritty firefox blueman dunst udiskie unzip bob
+sudo pacman -S git zsh i3 i3status i3lock dmenu extrepo thunar feh alacritty firefox blueman dunst udiskie unzip bob curl wget
 
 #clone configs
 
