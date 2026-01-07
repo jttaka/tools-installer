@@ -9,7 +9,7 @@ sudo apt upgrade
 
 #install needed packages
 
-sudo apt install git zsh i3 i3status i3lock dmenu extrepo thunar feh alacritty blueman dunst udiskie unzip curl wget
+sudo apt install git zsh i3 i3status i3lock dmenu extrepo thunar feh alacritty blueman dunst udiskie unzip curl wget neovim
 
 #clone configs
 
@@ -18,29 +18,19 @@ git clone https://github.com/jttaka/i3-config.git
 
 #curl stuff
 
-curl -fsSL https://raw.githubusercontent.com/MordechaiHadad/bob/master/scripts/install.sh | bash
 curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh | bash
 
 #create needed files and directorys
 
 mkdir -p $HOME/bin
 mkdir -p $HOME/git
-touch $HOME/.profile
 
-#setup .zshrc stuff and bob stuff
-
-echo ". \"$HOME/.local/share/bob/env/env.sh\"" >> $HOME/.profile
-
+#setup .zshrc stuff
 echo 'export PATH="$PATH:$HOME/bin"' >> "$HOME/.zshrc"
 echo 'export PATH="$PATH:$HOME/.local/bin"' >> "$HOME/.zshrc"
-echo 'source "$HOME/.profile"' >> "$HOME/.zshrc"
-source "$HOME/.zshrc"
 
 mv neovim-config $HOME/.config/nvim/
 mv i3-config $HOME/.config/i3/
-
-bob install nightly
-bob use nightly
 
 #delete old desktop enviorment or wm
 DE="$XDG_CURRENT_DESKTOP"
