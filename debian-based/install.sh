@@ -9,9 +9,7 @@ sudo apt upgrade
 
 #install needed packages
 
-sudo apt install git zsh i3 i3status i3lock dmenu extrepo thunar feh alacritty firefox blueman dunst udiskie unzip curl wget
-sudo extrepo enable librewolf
-sudo apt install librewolf
+sudo apt install git zsh i3 i3status i3lock dmenu extrepo thunar feh alacritty blueman dunst udiskie unzip curl wget
 
 #clone configs
 
