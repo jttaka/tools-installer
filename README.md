@@ -3,7 +3,7 @@
 ## WARNING! Project still under construction but should already work. Still run at your own risk!
 
 ### Before installing
-Go check out the i3 and neovim configs that install.sh will instal from:
+Go check out the i3 and neovim configs that install.sh will install from:
 https://github.com/jttaka/neovim-config
 and
 https://github.com/jttaka/i3-config
