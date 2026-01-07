@@ -14,7 +14,7 @@ makepkg -si
 
 #install needed packages
 
-sudo pacman -S git zsh i3 i3status i3lock dmenu extrepo thunar feh alacritty firefox blueman dunst udiskie unzip
+sudo pacman -S git zsh i3 i3status i3lock dmenu extrepo thunar feh alacritty firefox blueman dunst udiskie unzip bob
 
 #clone configs
 
@@ -23,7 +23,6 @@ git clone https://github.com/jttaka/i3-config.git
 
 #curl stuff
 
-curl -fsSL https://raw.githubusercontent.com/MordechaiHadad/bob/master/scripts/install.sh | bash
 curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh | bash
 
 #create needed files and directorys
