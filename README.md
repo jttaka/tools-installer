@@ -4,7 +4,7 @@
 
 ## Installation:
 
-If you are on a new installation of a arch or debian based distro you are going to need git to install this:
+If you are on a new installation of a arch or debian based distro you are going to need to install git:
 
 ### Debian:
 ```bash
