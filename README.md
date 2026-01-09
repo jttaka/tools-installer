@@ -31,10 +31,10 @@ Install.sh will also create directories bin and git in your home directory and a
 On arch install.sh will do the following:
 
 Install:
-```
-git, zsh, i3, i3status, i3lock, dmenu, extrepo, thunar, feh, alacritty, blueman, dunst, udiskie, unzip, curl, wget, bob, oh-my-zsh, firefox, yay 
 
-```
+> git, zsh, i3, i3status, i3lock, dmenu, extrepo, thunar, feh, alacritty, blueman, dunst, udiskie, unzip, curl, wget, bob, oh-my-zsh, firefox, yay 
+
+
 Configure:
 ```
 i3, bob, neovim, zsh
